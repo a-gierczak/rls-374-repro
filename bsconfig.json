@@ -1,0 +1,31 @@
+{
+  "name": "Leon",
+  "sources": [
+    {
+      "dir": "src",
+      "subdirs": true
+    },
+    {
+      "dir": "__tests__",
+      "subdirs": true,
+      "type": "dev"
+    }
+  ],
+  "package-specs": {
+    "module": "commonjs",
+    "in-source": true
+  },
+  "suffix": ".bs.js",
+  "bs-dependencies": [],
+  "bs-dev-dependencies": [],
+  "ppx-flags": [],
+  "reason": {
+    "react-jsx": 3
+  },
+  "refmt": 3,
+  // "bsc-flags": ["-bs-g"],
+  "generate-merlin": true,
+  "warnings": {
+    "number": "-45"
+  }
+}
